@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Juan Carlos Arcila Díaz">
+    <meta name="description" content="Fundamentos HTML evaluación">
+    <meta name="keywords" content="fundamentos html, evaluación html, nextU, Juan Carlos Arcila">
+    <title>Curriculum - Juan Carlos Arcila Diaz</title>
+  </head>
+  <body>
+    <header>
+      <svg width="90px" height="70px" viewBox="0 0 90 70">
+        <image width="90px" height="70px" xlink:href="img/logo.svg"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Juan Carlos Arcila Díaz</h2>
+      <h3>07-01-1990 Chiclayo, Perú</h3>
+      <h3></h3>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li>Inicio</li></a>
+        <a href="educacion.html"><li>Educación</li></a>
+        <a href="experiencia.html"><li>Experiencia</li></a>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1" cellpading="0" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>Culminó</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2009</td>
+              <td>IESTP Chongoyape</td>
+              <td>Perú</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>Universidad Señor de Sipán</td>
+              <td>Perú</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2017</td>
+              <td>Universidad Pedro Ruiz Gallo</td>
+              <td>Perú</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </article>
+      <article>
+        <h4>Agregar Estudios</h4>
+        <form action="#" method="post" name="frmRegistro">
+          <p>
+            <label for="anio"><strong>Año: </strong></label>
+            <select id="anio" name="anio">
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion"><strong>Institución: </strong></label>
+            <input type="text" required name="institucion" id="institucion" placeholder="USS">
+          </p>
+          <p>
+            <label for="lugar"><strong>Lugar: </strong></label>
+            <textarea name="lugar" id="lugar" rows="4" cols="24"></textarea>
+          </p>
+          <p>
+            <label for="culmino"><strong>Culminó?</strong></label>
+            <input type="radio" name="culmino" id="culmino" value="1">Si
+            <input type="radio" name="culmino" id="culmino" value="0">No
+          </p>
+          <p>
+            <input type="submit" name="btnenviar" value="Enviar">
+          </p>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <p>
+        &copy; Derechos reservados
+        <ul>
+          <li><strong>Email: </strong>jcarlos.ad7@gmail.com</li>
+          <li><strong>Facebook: </strong><a target="_blank" href="http://facebook.com/jcarlosad7">www.facebook.com/jcarlosad7</a></li>
+          <li><strong>Twitter: </strong><a target="_blank" href="http://twitter.com/jcarlosad7">www.twitter.com/jcarlosad7</a></li>
+        </ul>
+      </p>
+    </footer>
+
+  </body>
+</html>
